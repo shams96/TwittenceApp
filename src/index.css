@@ -1,0 +1,14 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @layer base {
+      body {
+        @apply bg-white text-gray-900;
+      }
+    }
+
+    .blur-3xl {
+      --tw-blur: blur(64px);
+      filter: var(--tw-blur);
+    }
